@@ -1,3 +1,14 @@
+## [1.0.4] - 2026-06-25
+### 🐛 Fixes
+- Fixed changelog fetch URL to point to the correct repository.
+- Updated GitHub fallback link in changelog error view.
+
+### ⚙️ Maintenance
+- Prepared auto-updater with GitHub Releases for seamless updates.
+- Updated build configuration and metadata.
+
+---
+
 ## [1.0.3] - 2026-05-06
 ### 🚀 Updates
 - Updated repository and homepage links.
