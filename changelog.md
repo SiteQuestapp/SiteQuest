@@ -1,3 +1,15 @@
+## [1.0.9] - 2026-07-11
+
+## Key Updates
+- **Guest Mode** — Explore the app instantly without signing in. When you create an account later, everything you saved transfers over automatically.
+- **Seamless Sign-Up** — Create an account with Google or Auth0 and your guest data (settings, saved items, and progress) comes along with you.
+
+## Bug Fixes
+- **Cleaner Guest Label** — Guest users now see a simple "Guest" name instead of a messy code.
+- **Welcome Tour Fixed** — New guests now get the proper intro walkthrough on first launch.
+- **Fewer False Errors** — Reduced unnecessary error messages that weren't actual problems.
+---
+
 ## [1.0.8] - 2026-07-11
 
 ### 🐛 Fixes
