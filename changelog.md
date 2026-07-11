@@ -1,3 +1,37 @@
+## [1.0.8] - 2026-07-11
+
+### 🐛 Fixes
+- Fixed SiteQuest Pets heading wrapping to two lines on narrow viewports.
+- Fixed milestone badge text overflowing its card container.
+- Reduced line spacing in milestone card badge text for tighter layout.
+
+---
+
+## [1.0.7] - 2026-07-11
+
+### 🚀 Updates
+- Responsive text scaling for SiteQuest Pets header and milestone section on smaller screens.
+
+---
+
+## [1.0.6] - 2026-07-11
+
+### 🐛 Fixes
+- Fixed "unexpected shutdown" error appearing after auto-update or tray icon exit.
+- Added data flush before forced app exit in renderer crash handler.
+- Added data flush before auto-update restart to prevent pending data loss.
+- Added data flush on Windows session end to prevent data loss during system shutdown.
+
+---
+
+## [1.0.5] - 2026-07-11
+
+### 🚀 Features
+- **Uninstall Feedback (Windows)**: Automatically opens a feedback form when users uninstall the app via Windows Settings.
+- **Uninstall Feedback (Mac)**: LaunchAgent checks on login if the app was removed and opens a feedback form.
+- Feedback URL includes user email, app version, and OS for context.
+- Feedback URL only opens on real uninstalls, not during auto-updates.
+---
 ## [1.0.4] - 2026-06-25
 ### 🐛 Fixes
 - Fixed changelog fetch URL to point to the correct repository.
